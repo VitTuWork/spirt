@@ -1,0 +1,1127 @@
+[
+ {
+   "source": "Australia",
+   "source_lat": -25.274398,
+   "source_lon": 133.775136,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 351
+ },
+ {
+   "source": "Austria",
+   "source_lat": 47.516231,
+   "source_lon": 14.550072,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 375
+ },
+ {
+   "source": "Algeria",
+   "source_lat": 28.033886,
+   "source_lon": 1.659626,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 353
+ },
+ {
+   "source": "Argentina",
+   "source_lat": -38.416097,
+   "source_lon": -63.616672,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 230
+ },
+ {
+   "source": "Barbados",
+   "source_lat": 13.193887,
+   "source_lon": -59.543198,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 238
+ },
+ {
+   "source": "Belize",
+   "source_lat": 17.189877,
+   "source_lon": -88.49765,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 254
+ },
+ {
+   "source": "Venezuela",
+   "source_lat": 6.42375,
+   "source_lon": -66.58973,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 205
+ },
+ {
+   "source": "Burkina faso",
+   "source_lat": 12.238333,
+   "source_lon": -1.561593,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 312
+ },
+ {
+   "source": "Luxembourg",
+   "source_lat": 49.815273,
+   "source_lon": 6.129583,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 286
+ },
+ {
+   "source": "Hungary",
+   "source_lat": 47.162494,
+   "source_lon": 19.503304,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 187
+ },
+ {
+   "source": "Uruguay",
+   "source_lat": -32.522779,
+   "source_lon": -55.765835,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 353
+ },
+ {
+   "source": "Guinea",
+   "source_lat": 9.945587,
+   "source_lon": -9.696645,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 162
+ },
+ {
+   "source": "Israel",
+   "source_lat": 31.046051,
+   "source_lon": 34.851612,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 203
+ },
+ {
+   "source": "Qatar",
+   "source_lat": 25.354826,
+   "source_lon": 51.183884,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 243
+ },
+ {
+   "source": "Grenada",
+   "source_lat": 12.1165,
+   "source_lon": -61.679,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 291
+ },
+ {
+   "source": "Greece",
+   "source_lat": 39.074208,
+   "source_lon": 21.824312,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 436
+ },
+ {
+   "source": "Georgia",
+   "source_lat": 32.1656221,
+   "source_lon": -82.9000751,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 413
+ },
+ {
+   "source": "Congo",
+   "source_lat": -4.038333,
+   "source_lon": 21.758664,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 155
+ },
+ {
+   "source": "Sri lanka",
+   "source_lat": 7.873054,
+   "source_lon": 80.771797,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 166
+ },
+ {
+   "source": "Dominican",
+   "source_lat": 18.735693,
+   "source_lon": -70.162651,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 255
+ },
+ {
+   "source": "Jordan",
+   "source_lat": 30.585164,
+   "source_lon": 36.238414,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 170
+ },
+ {
+   "source": "Ireland",
+   "source_lat": 53.1423672,
+   "source_lon": -7.6920536,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 271
+ },
+ {
+   "source": "Italy",
+   "source_lat": 41.87194,
+   "source_lon": 12.56738,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 417
+ },
+ {
+   "source": "Canada",
+   "source_lat": 56.130366,
+   "source_lon": -106.346771,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 272
+ },
+ {
+   "source": "Kyrgyzstan",
+   "source_lat": 41.20438,
+   "source_lon": 74.766098,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 437
+ },
+ {
+   "source": "China",
+   "source_lat": 35.86166,
+   "source_lon": 104.195397,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 288
+ },
+ {
+   "source": "Monaco",
+   "source_lat": 43.750298,
+   "source_lon": 7.412841,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 258
+ },
+ {
+   "source": "Bahrain",
+   "source_lat": 26.0667,
+   "source_lon": 50.5577,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 199
+ },
+ {
+   "source": "Belgium",
+   "source_lat": 50.503887,
+   "source_lon": 4.469936,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 287
+ },
+ {
+   "source": "Denmark",
+   "source_lat": 56.26392,
+   "source_lon": 9.501785,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 319
+ },
+ {
+   "source": "Spain",
+   "source_lat": 40.463667,
+   "source_lon": -3.74922,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 410
+ },
+ {
+   "source": "Morocco",
+   "source_lat": 31.791702,
+   "source_lon": -7.09262,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 226
+ },
+ {
+   "source": "Nepal",
+   "source_lat": 27.8061991,
+   "source_lon": 84.9047438,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 290
+ },
+ {
+   "source": "Netherlands",
+   "source_lat": 38.570539,
+   "source_lon": -90.58239,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 279
+ },
+ {
+   "source": "Norway",
+   "source_lat": 60.472024,
+   "source_lon": 8.468946,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 316
+ },
+ {
+   "source": "Thailand",
+   "source_lat": 15.870032,
+   "source_lon": 100.992541,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 240
+ },
+ {
+   "source": "Tonga",
+   "source_lat": -21.178986,
+   "source_lon": -175.198242,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 175
+ },
+ {
+   "source": "Sweden",
+   "source_lat": 60.128161,
+   "source_lon": 18.643501,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 154
+ },
+ {
+   "source": "Laos",
+   "source_lat": 19.85627,
+   "source_lon": 102.495496,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 257
+ },
+ {
+   "source": "Latvia",
+   "source_lat": 56.879635,
+   "source_lon": 24.603189,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 340
+ },
+ {
+   "source": "Lebanon",
+   "source_lat": 33.854721,
+   "source_lon": 35.862285,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 308
+ },
+ {
+   "source": "Lithuania",
+   "source_lat": 55.169438,
+   "source_lon": 23.881275,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 156
+ },
+ {
+   "source": "Malaysia",
+   "source_lat": 4.210484,
+   "source_lon": 101.975766,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 340
+ },
+ {
+   "source": "Mexico",
+   "source_lat": 23.634501,
+   "source_lon": -102.552784,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 361
+ },
+ {
+   "source": "Mongolia",
+   "source_lat": 46.862496,
+   "source_lon": 103.846656,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 287
+ },
+ {
+   "source": "Bangladesh",
+   "source_lat": 23.684994,
+   "source_lon": 90.356331,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 308
+ },
+ {
+   "source": "Antiles",
+   "source_lat": 52.3763561,
+   "source_lon": 4.9245673,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 359
+ },
+ {
+   "source": "New zealand",
+   "source_lat": -40.900557,
+   "source_lon": 174.885971,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 322
+ },
+ {
+   "source": "United arab emirates",
+   "source_lat": 23.424076,
+   "source_lon": 53.847818,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 316
+ },
+ {
+   "source": "Portugal",
+   "source_lat": 39.399872,
+   "source_lon": -8.224454,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 190
+ },
+ {
+   "source": "Abkhazia",
+   "source_lat": 43.0015544,
+   "source_lon": 41.023407,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 205
+ },
+ {
+   "source": "Azerbaijan",
+   "source_lat": 40.143105,
+   "source_lon": 47.576927,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 420
+ },
+ {
+   "source": "Armenia",
+   "source_lat": 40.069099,
+   "source_lon": 45.038189,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 384
+ },
+ {
+   "source": "Belarus",
+   "source_lat": 53.709807,
+   "source_lon": 27.953389,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 294
+ },
+ {
+   "source": "Bulgaria",
+   "source_lat": 42.733883,
+   "source_lon": 25.48583,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 375
+ },
+ {
+   "source": "Guatemala",
+   "source_lat": 15.783471,
+   "source_lon": -90.230759,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 269
+ },
+ {
+   "source": "Guinea-bisau",
+   "source_lat": 11.803749,
+   "source_lon": -15.180413,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 254
+ },
+ {
+   "source": "Honduras",
+   "source_lat": 15.199999,
+   "source_lon": -86.241905,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 221
+ },
+ {
+   "source": "Jibouti",
+   "source_lat": 11.825138,
+   "source_lon": 42.590275,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 307
+ },
+ {
+   "source": "India",
+   "source_lat": 20.593684,
+   "source_lon": 78.96288,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 321
+ },
+ {
+   "source": "Indonesia",
+   "source_lat": -0.789275,
+   "source_lon": 113.921327,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 275
+ },
+ {
+   "source": "Iraq",
+   "source_lat": 33.223191,
+   "source_lon": 43.679291,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 267
+ },
+ {
+   "source": "Iceland",
+   "source_lat": 64.963051,
+   "source_lon": -19.020835,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 355
+ },
+ {
+   "source": "Kazakhstan",
+   "source_lat": 48.019573,
+   "source_lon": 66.923684,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 383
+ },
+ {
+   "source": "Cameroon",
+   "source_lat": 7.369722,
+   "source_lon": 12.354722,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 317
+ },
+ {
+   "source": "Kenya",
+   "source_lat": -0.023559,
+   "source_lon": 37.906193,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 315
+ },
+ {
+   "source": "Cyprus",
+   "source_lat": 35.126413,
+   "source_lon": 33.429859,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 182
+ },
+ {
+   "source": "Colombia",
+   "source_lat": 4.570868,
+   "source_lon": -74.297333,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 406
+ },
+ {
+   "source": "Congo",
+   "source_lat": -0.228021,
+   "source_lon": 15.827659,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 171
+ },
+ {
+   "source": "Korea",
+   "source_lat": 35.907757,
+   "source_lon": 127.766922,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 218
+ },
+ {
+   "source": "Costa rica",
+   "source_lat": 9.748917,
+   "source_lon": -83.753428,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 384
+ },
+ {
+   "source": "Cuba",
+   "source_lat": 21.521757,
+   "source_lon": -77.781167,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 418
+ },
+ {
+   "source": "Liberia",
+   "source_lat": 6.428055,
+   "source_lon": -9.429499,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 183
+ },
+ {
+   "source": "Mauritius",
+   "source_lat": -20.348404,
+   "source_lon": 57.552152,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 397
+ },
+ {
+   "source": "Macedonia",
+   "source_lat": 41.608635,
+   "source_lon": 21.745275,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 319
+ },
+ {
+   "source": "Malta",
+   "source_lat": 35.937496,
+   "source_lon": 14.375416,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 369
+ },
+ {
+   "source": "Moldova",
+   "source_lat": 47.411631,
+   "source_lon": 28.369885,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 445
+ },
+ {
+   "source": "Nicaragua",
+   "source_lat": 12.865416,
+   "source_lon": -85.207229,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 394
+ },
+ {
+   "source": "Panama",
+   "source_lat": 8.537981,
+   "source_lon": -80.782127,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 395
+ },
+ {
+   "source": "Paraguay",
+   "source_lat": -23.442503,
+   "source_lon": -58.443832,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 175
+ },
+ {
+   "source": "Poland",
+   "source_lat": 51.919438,
+   "source_lon": 19.145136,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 249
+ },
+ {
+   "source": "Seychelles",
+   "source_lat": -4.679574,
+   "source_lon": 55.491977,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 387
+ },
+ {
+   "source": "Senegal",
+   "source_lat": 14.497401,
+   "source_lon": -14.452362,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 247
+ },
+ {
+   "source": "Serbia",
+   "source_lat": 44.016521,
+   "source_lon": 21.005859,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 351
+ },
+ {
+   "source": "Singapore",
+   "source_lat": 1.352083,
+   "source_lon": 103.819836,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 404
+ },
+ {
+   "source": "Slovenia",
+   "source_lat": 46.151241,
+   "source_lon": 14.995463,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 312
+ },
+ {
+   "source": "Sierra leone",
+   "source_lat": 8.460555,
+   "source_lon": -11.779889,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 449
+ },
+ {
+   "source": "Tajikistan",
+   "source_lat": 38.861034,
+   "source_lon": 71.276093,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 320
+ },
+ {
+   "source": "Uzbekistan",
+   "source_lat": 41.377491,
+   "source_lon": 64.585262,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 408
+ },
+ {
+   "source": "Philippines",
+   "source_lat": 12.879721,
+   "source_lon": 121.774017,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 247
+ },
+ {
+   "source": "Croatia",
+   "source_lat": 45.1,
+   "source_lon": 15.2000001,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 415
+ },
+ {
+   "source": "Montenegro",
+   "source_lat": 42.708678,
+   "source_lon": 19.37439,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 226
+ },
+ {
+   "source": "Chile",
+   "source_lat": -35.675147,
+   "source_lon": -71.542969,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 202
+ },
+ {
+   "source": "Guinea",
+   "source_lat": 1.650801,
+   "source_lon": 10.267895,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 394
+ },
+ {
+   "source": "El salvador",
+   "source_lat": 13.794185,
+   "source_lon": -88.89653,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 400
+ },
+ {
+   "source": "South ossetia",
+   "source_lat": 42.333332,
+   "source_lon": 44,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 203
+ },
+ {
+   "source": "Romania",
+   "source_lat": 45.943161,
+   "source_lon": 24.96676,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 281
+ },
+ {
+   "source": "Saint kitts and nevis",
+   "source_lat": 17.357822,
+   "source_lon": -62.782998,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 168
+ },
+ {
+   "source": "Saint lucia",
+   "source_lat": 13.909444,
+   "source_lon": -60.978893,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 151
+ },
+ {
+   "source": "Syria",
+   "source_lat": 34.802075,
+   "source_lon": 38.996815,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 383
+ },
+ {
+   "source": "Slovakia",
+   "source_lat": 48.669026,
+   "source_lon": 19.699024,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 287
+ },
+ {
+   "source": "United kingdom of great britain and northern ireland",
+   "source_lat": 55.378051,
+   "source_lon": -3.435973,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 300
+ },
+ {
+   "source": "Usa",
+   "source_lat": 37.09024,
+   "source_lon": -95.712891,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 277
+ },
+ {
+   "source": "Libya",
+   "source_lat": 26.3351,
+   "source_lon": 17.228331,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 335
+ },
+ {
+   "source": "Vietnam",
+   "source_lat": 14.058324,
+   "source_lon": 108.277199,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 432
+ },
+ {
+   "source": "Hong kong",
+   "source_lat": 22.3193039,
+   "source_lon": 114.1693611,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 208
+ },
+ {
+   "source": "Oman",
+   "source_lat": 21.4735329,
+   "source_lon": 55.975413,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 235
+ },
+ {
+   "source": "Taiwan",
+   "source_lat": 23.69781,
+   "source_lon": 120.960515,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 353
+ },
+ {
+   "source": "Tunisia",
+   "source_lat": 33.886917,
+   "source_lon": 9.537499,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 214
+ },
+ {
+   "source": "Turkey",
+   "source_lat": 38.963745,
+   "source_lon": 35.243322,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 315
+ },
+ {
+   "source": "Turkmenistan",
+   "source_lat": 38.969719,
+   "source_lon": 59.556278,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 379
+ },
+ {
+   "source": "Ukraine",
+   "source_lat": 48.379433,
+   "source_lon": 31.1655799,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 364
+ },
+ {
+   "source": "Ethiopia",
+   "source_lat": 9.145,
+   "source_lon": 40.489673,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 284
+ },
+ {
+   "source": "Brazil",
+   "source_lat": -14.235004,
+   "source_lon": -51.92528,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 298
+ },
+ {
+   "source": "Germany",
+   "source_lat": 51.165691,
+   "source_lon": 10.451526,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 341
+ },
+ {
+   "source": "Nigeria",
+   "source_lat": 9.081999,
+   "source_lon": 8.675277,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 323
+ },
+ {
+   "source": "Finland",
+   "source_lat": 61.92411,
+   "source_lon": 25.7481511,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 194
+ },
+ {
+   "source": "French guiana",
+   "source_lat": 3.933889,
+   "source_lon": -53.125782,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 214
+ },
+ {
+   "source": "France",
+   "source_lat": 46.227638,
+   "source_lon": 2.213749,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 301
+ },
+ {
+   "source": "Czech",
+   "source_lat": 49.817492,
+   "source_lon": 15.472962,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 236
+ },
+ {
+   "source": "Switzerland",
+   "source_lat": 46.818188,
+   "source_lon": 8.227512,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 297
+ },
+ {
+   "source": "Estonia",
+   "source_lat": 58.595272,
+   "source_lon": 25.0136071,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 307
+ },
+ {
+   "source": "South africa",
+   "source_lat": -30.559482,
+   "source_lon": 22.937506,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 440
+ },
+ {
+   "source": "Jamaica",
+   "source_lat": 18.109581,
+   "source_lon": -77.297508,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 190
+ },
+ {
+   "source": "Japan",
+   "source_lat": 36.204824,
+   "source_lon": 138.252924,
+   "target": "Russian federation",
+   "target_lat": 61.52401,
+   "target_lon": 105.318756,
+   "value": 297
+ }
+]
