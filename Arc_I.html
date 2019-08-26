@@ -23,7 +23,7 @@
 
       fetch('https://vittuwork.github.io/exsport_v.json').then(res => res.json()).then(exsport_vodka => {
         const world = Globe()
-          .globeImageUrl('https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg')
+          .globeImageUrl('https://vittuwork.github.io/enl.jpg')
           .arcsData(exsport_vodka)
           .arcStartLat(d => d.source_lat)
           .arcStartLng(d => d.source_lon)
