@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/globe.gl"></script>
+  <!-- <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale.v3.min.js"></script>
+  <script src="https://d3js.org/d3-interpolate.v1.min.js"></script> -->
+  <!--<script src="../../dist/globe.gl.js"></script>-->
+</head>
+
+<body>
+  <div id="globeViz"></div>
+
+  <script>
+
+
+
+  fetch('https://vittuwork.github.io/svtab.json').then(res => res.json()).then(exsport => {
+      const world = Globe()
+        .globeImageUrl('https://vittuwork.github.io/enl.jpg')
+        .arcsData(exsport)
+        .arcStartLat(d => d.source_lat)
+        .arcStartLng(d => d.source_lon)
+        .arcEndLat(d => d.target_lat)
+        .arcEndLng(d => d.target_lon)
+        .arcStroke(d => d.Sum/200)
+        .arcColor(() => 'rgb(255, 165, 0)')
+        .arcAltitudeAutoScale (0.5)
+        // .arcDashLength(() => Math.random())
+        .arcDashGap(() => Math.random())
+        .arcDashAnimateTime(() => Math.random() * 4000 + 500)
+        .arcLabel((d) => `<b>Экспорт<br/>
+          <b>${d.Country}:</b> <br/>
+          Водка: <i>${d.full2018_lb}</i> тыс. дал<br/>
+          Год: <i>2018</i> `)
+      (document.getElementById('globeViz'))
+});
+
+  </script>
+</body>
