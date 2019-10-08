@@ -14,21 +14,21 @@ region_name,ap,value
 Респ. Башкортостан,vsh,21
 Респ. Башкортостан,vbes,118
 Респ. Башкортостан,ves,6
-Респ. Дагестан,vodka,653
-Респ. Дагестан,lim25,0
-Респ. Дагестан,lib25,8
-Респ. Дагестан,conyac,133
-Респ. Дагестан,whiskey,5
-Респ. Дагестан,sp,1
-Респ. Дагестан,vv,132
-Респ. Дагестан,vgu,45
-Респ. Дагестан,vmp,4
-Респ. Дагестан,vf,5
-Респ. Дагестан,vi,0
-Респ. Дагестан,vgu,3
-Респ. Дагестан,vsh,5
-Респ. Дагестан,vbes,4
-Респ. Дагестан,ves,1
+rdag,vodka,653
+rdag,lim25,0
+rdag,lib25,8
+rdag,conyac,133
+rdag,whiskey,5
+rdag,sp,1
+rdag,vv,132
+rdag,vgu,45
+rdag,vmp,4
+rdag,vf,5
+rdag,vi,0
+rdag,vgu,3
+rdag,vsh,5
+rdag,vbes,4
+rdag,ves,1
 rkomy,vodka,442
 rkomy,lim25,29
 rkomy,lib25,31

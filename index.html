@@ -10,7 +10,7 @@
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 100, bottom: 30, left: 70},
+var margin = {top: 80, right: 100, bottom: 30, left: 70},
   width = 1000 - margin.left - margin.right,
   height = 800 - margin.top - margin.bottom;
 
@@ -58,12 +58,12 @@ d3.csv("https://vittuwork.github.io/heatmap.csv", function(data) {
   // create a tooltip
   var tooltip = d3.select("#my_dataviz")
     .append("div")
-    // .style("position", "absolute") // Описание рядом со стрелкой
+    .style("position", "absolute") // Описание рядом со стрелкой
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
-    .style("border", "solid")
-    .style("border-width", "2px")
+    // .style("border", "solid")
+    // .style("border-width", "2px")
     .style("border-radius", "5px")
     .style("padding", "10px")
 
@@ -105,5 +105,13 @@ d3.csv("https://vittuwork.github.io/heatmap.csv", function(data) {
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave)
 })
+
+// Add title to graph
+svg.append("text")
+        .attr("x", 0)
+        .attr("y", -50)
+        .attr("text-anchor", "left")
+        .style("font-size", "22px")
+        .text("Классификация структуры потребления (по видам АП(процент от общего потребления))");
 
 </script>
