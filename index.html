@@ -3,6 +3,7 @@
 
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v4.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
@@ -10,7 +11,7 @@
 
 // set the dimensions and margins of the graph
 var margin = {top: 30, right: 100, bottom: 30, left: 70},
-  width = 1800 - margin.left - margin.right,
+  width = 1000 - margin.left - margin.right,
   height = 800 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
@@ -23,7 +24,7 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Labels of row and columns
-var myregion_names = ["Респ. Башкортостан", "Респ. Дагестан", "rkomy", "rsevosa", "rmor", "stkr", "tambobl", "mos", "spb", "khmaoygra"]
+var myregion_names = ["Респ. Башкортостан", "rdag", "rkomy", "rsevosa", "rmor", "stkr", "tambobl", "mos", "spb", "khmaoygra"]
 var myVars = ["vodka", "lim25", "lib25", "conyac", "whiskey", "sp", "vv", "vgu", "vmp", "vf", "vi", "vgu", "vsh", "vbes", "ves"]
 
 
@@ -53,10 +54,11 @@ var myColor = d3.scaleLinear()
 //Read the data
 d3.csv("https://vittuwork.github.io/heatmap.csv", function(data) {
 
+
   // create a tooltip
   var tooltip = d3.select("#my_dataviz")
     .append("div")
-    .style("position", "absolute") // Описание рядом со стрелкой
+    // .style("position", "absolute") // Описание рядом со стрелкой
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
@@ -68,19 +70,25 @@ d3.csv("https://vittuwork.github.io/heatmap.csv", function(data) {
   // Three function that change the tooltip when user hover / move / leave a cell
   var mouseover = function(d) {
     tooltip.style("opacity", 1)
+    d3.select(this) // Подкрашивает объект серой обводкой
+      .style("stroke", "gray")
+      .style("opacity", 1)
   }
   var mousemove = function(d) {
     tooltip
       .html("The exact value of<br>this cell is: " + d.value)
-      .style("left", (d3.mouse(this)[0]+90) + "px")
+      .style("left", (d3.mouse(this)[0]+70) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
   var mouseleave = function(d) {
     //tooltip.style("opacity", 0)
     tooltip
-      .transition()
-      .duration(200)
+      // .transition()
+      // .duration(200)
       .style("opacity", 0)
+    d3.select(this)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
   }
 
   // add the squares
