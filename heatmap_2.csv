@@ -1,151 +1,151 @@
 region_name,ap,value
-Башкортостан,vodka,492
-Башкортостан,lim25,9
-Башкортостан,lib25,55
-Башкортостан,conyac,44
-Башкортостан,whiskey,17
-Башкортостан,sp,2
-Башкортостан,vv,158
-Башкортостан,vgu,16
-Башкортостан,vmp,16
-Башкортостан,vf,30
-Башкортостан,vi,10
-Башкортостан,vgu,6
-Башкортостан,vsh,21
-Башкортостан,vbes,118
-Башкортостан,ves,6
-Дагестан,vodka,653
-Дагестан,lim25,0
-Дагестан,lib25,8
-Дагестан,conyac,133
-Дагестан,whiskey,5
-Дагестан,sp,1
-Дагестан,vv,132
-Дагестан,vgu,45
-Дагестан,vmp,4
-Дагестан,vf,5
-Дагестан,vi,0
-Дагестан,vgu,3
-Дагестан,vsh,5
-Дагестан,vbes,4
-Дагестан,ves,1
-Коми,vodka,442
-Коми,lim25,29
-Коми,lib25,31
-Коми,conyac,44
-Коми,whiskey,8
-Коми,sp,0
-Коми,vv,160
-Коми,vgu,12
-Коми,vmp,11
-Коми,vf,88
-Коми,vi,9
-Коми,vgu,2
-Коми,vsh,36
-Коми,vbes,120
-Коми,ves,6
-Сев. Осетия-Алания,vodka,194
-Сев. Осетия-Алания,lim25,5
-Сев. Осетия-Алания,lib25,11
-Сев. Осетия-Алания,conyac,73
-Сев. Осетия-Алания,whiskey,53
-Сев. Осетия-Алания,sp,16
-Сев. Осетия-Алания,vv,177
-Сев. Осетия-Алания,vgu,16
-Сев. Осетия-Алания,vmp,22
-Сев. Осетия-Алания,vf,25
-Сев. Осетия-Алания,vi,23
-Сев. Осетия-Алания,vgu,11
-Сев. Осетия-Алания,vsh,60
-Сев. Осетия-Алания,vbes,297
-Сев. Осетия-Алания,ves,15
-Мордовия,vodka,462
-Мордовия,lim25,13
-Мордовия,lib25,26
-Мордовия,conyac,32
-Мордовия,whiskey,10
-Мордовия,sp,10
-Мордовия,vv,125
-Мордовия,vgu,15
-Мордовия,vmp,14
-Мордовия,vf,123
-Мордовия,vi,9
-Мордовия,vgu,4
-Мордовия,vsh,19
-Мордовия,vbes,133
-Мордовия,ves,5
-Ставропольский кр.,vodka,279
-Ставропольский кр.,lim25,6
-Ставропольский кр.,lib25,26
-Ставропольский кр.,conyac,62
-Ставропольский кр.,whiskey,19
-Ставропольский кр.,sp,16
-Ставропольский кр.,vv,210
-Ставропольский кр.,vgu,15
-Ставропольский кр.,vmp,14
-Ставропольский кр.,vf,142
-Ставропольский кр.,vi,17
-Ставропольский кр.,vgu,8
-Ставропольский кр.,vsh,39
-Ставропольский кр.,vbes,137
-Ставропольский кр.,ves,8
-Тамбовская область,vodka,326
-Тамбовская область,lim25,9
-Тамбовская область,lib25,31
-Тамбовская область,conyac,45
-Тамбовская область,whiskey,14
-Тамбовская область,sp,20
-Тамбовская область,vv,164
-Тамбовская область,vgu,17
-Тамбовская область,vmp,17
-Тамбовская область,vf,133
-Тамбовская область,vi,12
-Тамбовская область,vgu,7
-Тамбовская область,vsh,40
-Тамбовская область,vbes,158
-Тамбовская область,ves,9
-Москва,vodka,297
-Москва,lim25,8
-Москва,lib25,26
-Москва,conyac,71
-Москва,whiskey,35
-Москва,sp,47
-Москва,vv,160
-Москва,vgu,74
-Москва,vmp,90
-Москва,vf,31
-Москва,vi,29
-Москва,vgu,17
-Москва,vsh,45
-Москва,vbes,62
-Москва,ves,10
-Санкт-Петербург,vodka,263
-Санкт-Петербург,lim25,9
-Санкт-Петербург,lib25,27
-Санкт-Петербург,conyac,77
-Санкт-Петербург,whiskey,30
-Санкт-Петербург,sp,47
-Санкт-Петербург,vv,197
-Санкт-Петербург,vgu,71
-Санкт-Петербург,vmp,76
-Санкт-Петербург,vf,23
-Санкт-Петербург,vi,29
-Санкт-Петербург,vgu,14
-Санкт-Петербург,vsh,44
-Санкт-Петербург,vbes,80
-Санкт-Петербург,ves,11
-ХМАО – Югра,vodka,396
-ХМАО – Югра,lim25,11
-ХМАО – Югра,lib25,33
-ХМАО – Югра,conyac,75
-ХМАО – Югра,whiskey,24
-ХМАО – Югра,sp,11
-ХМАО – Югра,vv,158
-ХМАО – Югра,vgu,26
-ХМАО – Югра,vmp,26
-ХМАО – Югра,vf,28
-ХМАО – Югра,vi,20
-ХМАО – Югра,vgu,13
-ХМАО – Югра,vsh,46
-ХМАО – Югра,vbes,122
-ХМАО – Югра,ves,11
+Респ. Башкортостан,vodka,492
+Респ. Башкортостан,lim25,9
+Респ. Башкортостан,lib25,55
+Респ. Башкортостан,conyac,44
+Респ. Башкортостан,whiskey,17
+Респ. Башкортостан,sp,2
+Респ. Башкортостан,vv,158
+Респ. Башкортостан,vgu,16
+Респ. Башкортостан,vmp,16
+Респ. Башкортостан,vf,30
+Респ. Башкортостан,vi,10
+Респ. Башкортостан,vgu,6
+Респ. Башкортостан,vsh,21
+Респ. Башкортостан,vbes,118
+Респ. Башкортостан,ves,6
+Респ. Дагестан,vodka,653
+Респ. Дагестан,lim25,0
+Респ. Дагестан,lib25,8
+Респ. Дагестан,conyac,133
+Респ. Дагестан,whiskey,5
+Респ. Дагестан,sp,1
+Респ. Дагестан,vv,132
+Респ. Дагестан,vgu,45
+Респ. Дагестан,vmp,4
+Респ. Дагестан,vf,5
+Респ. Дагестан,vi,0
+Респ. Дагестан,vgu,3
+Респ. Дагестан,vsh,5
+Респ. Дагестан,vbes,4
+Респ. Дагестан,ves,1
+rkomy,vodka,442
+rkomy,lim25,29
+rkomy,lib25,31
+rkomy,conyac,44
+rkomy,whiskey,8
+rkomy,sp,0
+rkomy,vv,160
+rkomy,vgu,12
+rkomy,vmp,11
+rkomy,vf,88
+rkomy,vi,9
+rkomy,vgu,2
+rkomy,vsh,36
+rkomy,vbes,120
+rkomy,ves,6
+rsevosa,vodka,194
+rsevosa,lim25,5
+rsevosa,lib25,11
+rsevosa,conyac,73
+rsevosa,whiskey,53
+rsevosa,sp,16
+rsevosa,vv,177
+rsevosa,vgu,16
+rsevosa,vmp,22
+rsevosa,vf,25
+rsevosa,vi,23
+rsevosa,vgu,11
+rsevosa,vsh,60
+rsevosa,vbes,297
+rsevosa,ves,15
+rmor,vodka,462
+rmor,lim25,13
+rmor,lib25,26
+rmor,conyac,32
+rmor,whiskey,10
+rmor,sp,10
+rmor,vv,125
+rmor,vgu,15
+rmor,vmp,14
+rmor,vf,123
+rmor,vi,9
+rmor,vgu,4
+rmor,vsh,19
+rmor,vbes,133
+rmor,ves,5
+stkr,vodka,279
+stkr,lim25,6
+stkr,lib25,26
+stkr,conyac,62
+stkr,whiskey,19
+stkr,sp,16
+stkr,vv,210
+stkr,vgu,15
+stkr,vmp,14
+stkr,vf,142
+stkr,vi,17
+stkr,vgu,8
+stkr,vsh,39
+stkr,vbes,137
+stkr,ves,8
+tambobl,vodka,326
+tambobl,lim25,9
+tambobl,lib25,31
+tambobl,conyac,45
+tambobl,whiskey,14
+tambobl,sp,20
+tambobl,vv,164
+tambobl,vgu,17
+tambobl,vmp,17
+tambobl,vf,133
+tambobl,vi,12
+tambobl,vgu,7
+tambobl,vsh,40
+tambobl,vbes,158
+tambobl,ves,9
+mos,vodka,297
+mos,lim25,8
+mos,lib25,26
+mos,conyac,71
+mos,whiskey,35
+mos,sp,47
+mos,vv,160
+mos,vgu,74
+mos,vmp,90
+mos,vf,31
+mos,vi,29
+mos,vgu,17
+mos,vsh,45
+mos,vbes,62
+mos,ves,10
+spb,vodka,263
+spb,lim25,9
+spb,lib25,27
+spb,conyac,77
+spb,whiskey,30
+spb,sp,47
+spb,vv,197
+spb,vgu,71
+spb,vmp,76
+spb,vf,23
+spb,vi,29
+spb,vgu,14
+spb,vsh,44
+spb,vbes,80
+spb,ves,11
+khmaoygra,vodka,396
+khmaoygra,lim25,11
+khmaoygra,lib25,33
+khmaoygra,conyac,75
+khmaoygra,whiskey,24
+khmaoygra,sp,11
+khmaoygra,vv,158
+khmaoygra,vgu,26
+khmaoygra,vmp,26
+khmaoygra,vf,28
+khmaoygra,vi,20
+khmaoygra,vgu,13
+khmaoygra,vsh,46
+khmaoygra,vbes,122
+khmaoygra,ves,11
