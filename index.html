@@ -11,8 +11,8 @@
 
 // set the dimensions and margins of the graph
 var margin = {top: 80, right: 100, bottom: 30, left: 70},
-  width = 1000 - margin.left - margin.right,
-  height = 800 - margin.top - margin.bottom;
+  width = 800 - margin.left - margin.right,
+  height = 600 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
@@ -24,14 +24,15 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 // Labels of row and columns
-var myregion_names = ["Респ. Башкортостан", "rdag", "rkomy", "rsevosa", "rmor", "stkr", "tambobl", "mos", "spb", "khmaoygra"]
-var myVars = ["vodka", "lim25", "lib25", "conyac", "whiskey", "sp", "vv", "vgu", "vmp", "vf", "vi", "vgu", "vsh", "vbes", "ves"]
+var myregion_names = ["RU-BA", "RU-DA", "RU-KO", "RU-SE", "RU-MO", "RU-STA", "RU-TAM", "RU-MOW", "RU-SPE", "RU-KHM"]
+var myVars = ["200", "211", "212", "229", "170", "260", "403", "402", "421", "440", "450", "461", "462"]
 
 
 // Build X scales and axis:
 var x = d3.scaleBand()
   .range([ 0, width ])
-  .domain(myregion_names)
+
+  .domain(myVars)
   .padding(0.01);
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
@@ -40,7 +41,7 @@ svg.append("g")
 // Build X scales and axis:
 var y = d3.scaleBand()
   .range([ height, 0 ])
-  .domain(myVars)
+  .domain(myregion_names)
   .padding(0.01);
 svg.append("g")
   .call(d3.axisLeft(y));
@@ -52,7 +53,7 @@ var myColor = d3.scaleLinear()
   .domain([0,100])
 
 //Read the data
-d3.csv("https://vittuwork.github.io/heatmap_3.csv", function(data) {
+d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
 
 
   // create a tooltip
@@ -76,7 +77,7 @@ d3.csv("https://vittuwork.github.io/heatmap_3.csv", function(data) {
   }
   var mousemove = function(d) {
     tooltip
-      .html("The exact value of<br>this cell is: " + d.value)
+      .html("<strong>" + d.region_name + "</strong>" + "<br/>" + d.ap_name_ru + "<br/>" + "Процент от общего потребления: " + d.value + "%")
       .style("left", (d3.mouse(this)[0]+70) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
@@ -93,11 +94,11 @@ d3.csv("https://vittuwork.github.io/heatmap_3.csv", function(data) {
 
   // add the squares
   svg.selectAll()
-    .data(data, function(d) {return d.region_name+':'+d.ap;})
+    .data(data, function(d) {return d.ap_code+':'+d.iso_name;})
     .enter()
     .append("rect")
-      .attr("x", function(d) { return x(d.region_name) })
-      .attr("y", function(d) { return y(d.ap) })
+      .attr("x", function(d) { return x(d.ap_code) })
+      .attr("y", function(d) { return y(d.iso_name) })
       .attr("width", x.bandwidth() )
       .attr("height", y.bandwidth() )
       .style("fill", function(d) { return myColor(d.value)} )
