@@ -49,10 +49,10 @@ svg.append("g")
 // Build color scale
 var myColor = d3.scaleLinear()
   .range(["#f5f5fa", "#2b3990"])
-  .domain([0,660])
+  .domain([0,100])
 
 //Read the data
-d3.csv("https://vittuwork.github.io/heatmap.csv", function(data) {
+d3.csv("https://vittuwork.github.io/heatmap_3.csv", function(data) {
 
 
   // create a tooltip
