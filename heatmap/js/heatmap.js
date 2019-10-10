@@ -1,0 +1,125 @@
+// set the dimensions and margins of the graph
+var margin = {
+    top: 20,
+    right: 100,
+    bottom: 80,
+    left: 70
+  },
+  width = 800 - margin.left - margin.right,
+  height = 550 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#my_dataviz")
+  .append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform",
+    "translate(" + margin.left + "," + margin.top + ")");
+
+// Labels of row and columns
+var myregion_names = ["RU-BA", "RU-DA", "RU-KO", "RU-SE", "RU-MO", "RU-STA", "RU-TAM", "RU-MOW", "RU-SPE", "RU-KHM"]
+var myVars = ["200", "211", "212", "229", "170", "260", "403", "402", "421", "440", "450", "461", "462"]
+
+
+// Build X scales and axis:
+var x = d3.scaleBand()
+  .range([0, width])
+
+  .domain(myVars)
+  .padding(0.01);
+svg.append("g")
+  .attr("transform", "translate(0," + height + ")")
+  .call(d3.axisBottom(x))
+
+// Build X scales and axis:
+var y = d3.scaleBand()
+  .range([height, 0])
+  .domain(myregion_names)
+  .padding(0.01);
+svg.append("g")
+  .call(d3.axisLeft(y));
+
+
+// Build color scale
+var myColor = d3.scaleLinear()
+  .range(["#ffffff", "#2b3990"])
+  .domain([0, 100])
+
+//Read the data
+d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
+
+
+  // create a tooltip
+  var tooltip = d3.select("#my_dataviz")
+    .append("div")
+    .style("position", "absolute") // Описание рядом со стрелкой
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    // .style("border", "solid")
+    // .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "10px")
+
+  // Three function that change the tooltip when user hover / move / leave a cell
+  var mouseover = function(d) {
+    tooltip.style("opacity", 1)
+    d3.select(this) // Подкрашивает объект серой обводкой
+      .style("stroke", "gray")
+      .style("opacity", 1)
+  }
+  var mousemove = function(d) {
+    tooltip
+      .html(d.region_name + "<br/>" + d.ap_name_ru + "<br/>" + "Процент от общего потребления: " + "<strong>" + d.value + "</strong>" + "%")
+      .style("left", (d3.mouse(this)[0] + 70) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  var mouseleave = function(d) {
+    //tooltip.style("opacity", 0)
+    tooltip
+      // .transition()
+      // .duration(200)
+      .style("opacity", 0)
+    d3.select(this)
+      .style("stroke", "none")
+      .style("opacity", 0.8)
+  }
+
+  // add the squares
+  svg.selectAll()
+    .data(data, function(d) {
+      return d.ap_code + ':' + d.iso_name;
+    })
+    .enter()
+    .append("rect")
+    .attr("x", function(d) {
+      return x(d.ap_code)
+    })
+    .attr("y", function(d) {
+      return y(d.iso_name)
+    })
+    .attr("width", x.bandwidth())
+    .attr("height", y.bandwidth())
+    .style("fill", function(d) {
+      return myColor(d.value)
+    })
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave)
+})
+
+// // Add title to graph
+// svg.append("text")
+//   .attr("x", 0)
+//   .attr("y", -50)
+//   .attr("class", "h1")
+//   // .attr("text-anchor", "left")
+//   // .style("font-size", "22px")
+//   .text("Классификация структуры потребления");
+//
+// svg.append("text")
+//   .attr("x", 0)
+//   .attr("y", -25)
+//   .attr("class", "h2")
+//   .text("По видам АП(% от общего потребления)");

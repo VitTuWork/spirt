@@ -128,7 +128,7 @@
     }
     var mousemove = function(d) {
       tooltip
-        .html(d.region_name + "<br/>" + d.ap_name_ru + "<br/>" + "<p>"Процент от общего потребления: </p>" + "<strong>" + d.value + "</strong>" + "%")
+        .html(d.region_name + "<br/>" + d.ap_name_ru + "<br/>" + "Процент от общего потребления: " + "<strong>" + d.value + "</strong>" + "%")
         .style("left", (d3.mouse(this)[0] + 70) + "px")
         .style("top", (d3.mouse(this)[1]) + "px")
     }
