@@ -71,7 +71,11 @@ d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
   }
   var mousemove = function(d) {
     tooltip
-      .html(d.region_name + "<br/>" + d.ap_name_ru + "<br/>" + "Процент от общего потребления: " + "<strong>" + d.value + "</strong>" + "%")
+      .html(function(g) {
+        return "<span style='font-size:20px;font-weight:700'>" + d.value + "%" + "</span>" + "<br/>" +
+          "Регион: " + "<span style='font-size:14px;font-weight:400'>" + d.region_name + "</span>" + "<br/>" +
+          "АП: " + "<span style='font-size:14px;font-weight:400'>" + d.ap_name_ru + "</span>";
+      })
       .style("left", (d3.mouse(this)[0] + 70) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
