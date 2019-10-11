@@ -81,7 +81,7 @@
     //Reading map file and data
 
     queue()
-      .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/topo.json")
+      .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/t.json")
       .defer(d3.csv, "https://vittuwork.github.io/Choropleth/data/Accidents.csv")
       .await(ready);
 
