@@ -7,7 +7,7 @@
 
   <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
-  <script type="text/javascript" src="https://d3js.org/topojson.v0.min.js"></script>
+  <script type="text/javascript" src="https://d3js.org/topojson.v1.min.js"></script>
   <!-- <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript" src="https://d3js.org/d3-queue.v3.min.js"></script>
   <script type="text/javascript" src="https://d3js.org/d3-geo.v1.min.js"></script> -->
@@ -82,7 +82,7 @@
 
     queue()
       .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/topo.json")
-      .defer(d3.csv, "data/Accidents.csv")
+      .defer(d3.csv, "https://vittuwork.github.io/Choropleth/data/Accidents.csv")
       .await(ready);
 
     //Start of Choropleth drawing
@@ -101,8 +101,8 @@
       svg.append("g")
         .attr("class", "region")
         .selectAll("path")
-        .data(topojson.object(map, map.objects.russia).geometries)
-        //.data(topojson.feature(map, map.objects.russia).features) <-- in case topojson.v1.js
+        // .data(topojson.object(map, map.objects.russia).geometries)
+        .data(topojson.feature(map, map.objects.russia).features) //<-- in case topojson.v1.js
         .enter().append("path")
         .attr("d", path)
         .style("fill", function(d) {
