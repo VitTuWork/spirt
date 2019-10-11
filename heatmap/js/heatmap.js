@@ -1,4 +1,4 @@
-// set the dimensions and margins of the graph
+// Задаем размер графика и поля вокруг
 var margin = {
     top: 20,
     right: 100,
@@ -8,7 +8,7 @@ var margin = {
   width = 800 - margin.left - margin.right,
   height = 550 - margin.top - margin.bottom;
 
-// append the svg object to the body of the page
+// Добавляем svg оъекты на страницу
 var svg = d3.select("#my_dataviz")
   .append("svg")
   .attr("width", width + margin.left + margin.right)
@@ -17,12 +17,12 @@ var svg = d3.select("#my_dataviz")
   .attr("transform",
     "translate(" + margin.left + "," + margin.top + ")");
 
-// Labels of row and columns
+// Подписываем шкалы
 var myregion_names = ["RU-BA", "RU-DA", "RU-KO", "RU-SE", "RU-MO", "RU-STA", "RU-TAM", "RU-MOW", "RU-SPE", "RU-KHM"]
 var myVars = ["200", "211", "212", "229", "170", "260", "403", "402", "421", "440", "450", "461", "462"]
 
 
-// Build X scales and axis:
+// Шкала X:
 var x = d3.scaleBand()
   .range([0, width])
 
@@ -32,7 +32,7 @@ svg.append("g")
   .attr("transform", "translate(0," + height + ")")
   .call(d3.axisBottom(x))
 
-// Build X scales and axis:
+// Шкала X:
 var y = d3.scaleBand()
   .range([height, 0])
   .domain(myregion_names)
@@ -41,28 +41,26 @@ svg.append("g")
   .call(d3.axisLeft(y));
 
 
-// Build color scale
+// Цветовая растяжка
 var myColor = d3.scaleLinear()
-  .range(["#ffffff", "#2b3990"])
-  .domain([0, 100])
+  .range(["#ffffff", "#2b3990"]) //от какого и до какого цвета
+  .domain([0, 100]) // Максимальное и минимальное значение в диапазоне которых будет цветавая растяжка
 
 //Read the data
 d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
 
 
-  // create a tooltip
+  //  Всплывающие подсказки
   var tooltip = d3.select("#my_dataviz")
     .append("div")
     .style("position", "absolute") // Описание рядом со стрелкой
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
-    // .style("border", "solid")
-    // .style("border-width", "2px")
     .style("border-radius", "5px")
     .style("padding", "10px")
 
-  // Three function that change the tooltip when user hover / move / leave a cell
+  // Три функции, как будут менятся подсказки в зависимоси от наведения...
   var mouseover = function(d) {
     tooltip.style("opacity", 1)
     d3.select(this) // Подкрашивает объект серой обводкой
@@ -74,23 +72,20 @@ d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
       .html(function(g) {
         return "<span style='font-size:20px;font-weight:700'>" + d.value + "%" + "</span>" + "<br/>" +
           "Регион: " + "<span style='font-size:14px;font-weight:400'>" + d.region_name + "</span>" + "<br/>" +
-          "АП: " + "<span style='font-size:14px;font-weight:400'>" + d.ap_name_ru + "</span>";
+          "АП: " + "<span style='font-size:14px;font-weight:400'>" + d.ap_name_ru + "</span>"; // Что будет выводится в подсказке
       })
       .style("left", (d3.mouse(this)[0] + 70) + "px")
       .style("top", (d3.mouse(this)[1]) + "px")
   }
   var mouseleave = function(d) {
-    //tooltip.style("opacity", 0)
-    tooltip
-      // .transition()
-      // .duration(200)
+      tooltip
       .style("opacity", 0)
     d3.select(this)
       .style("stroke", "none")
       .style("opacity", 0.8)
   }
 
-  // add the squares
+  // Добавление квадратиков
   svg.selectAll()
     .data(data, function(d) {
       return d.ap_code + ':' + d.iso_name;
@@ -112,18 +107,3 @@ d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave)
 })
-
-// // Add title to graph
-// svg.append("text")
-//   .attr("x", 0)
-//   .attr("y", -50)
-//   .attr("class", "h1")
-//   // .attr("text-anchor", "left")
-//   // .style("font-size", "22px")
-//   .text("Классификация структуры потребления");
-//
-// svg.append("text")
-//   .attr("x", 0)
-//   .attr("y", -25)
-//   .attr("class", "h2")
-//   .text("По видам АП(% от общего потребления)");
