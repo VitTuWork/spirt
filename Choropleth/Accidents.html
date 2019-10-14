@@ -53,9 +53,9 @@
 
     // Setting color domains(intervals of values) for our map
 
-    var color_domain = [50, 150, 350, 750, 1500]
-    var ext_color_domain = [0, 50, 150, 350, 750, 1500]
-    var legend_labels = ["< 50", "50+", "150+", "350+", "750+", "> 1500"]
+    var color_domain = [10, 20, 40, 60, 100]
+    var ext_color_domain = [0, 10, 20, 40, 60, 100]
+    var legend_labels = ["< 10", "10+", "20+", "40+", "60+", "> 100"]
     var color = d3.scale.threshold()
       .domain(color_domain)
       .range(["#adfcad", "#ffcb40", "#ffba00", "#ff7d73", "#ff4e40", "#ff1300"]);
@@ -81,7 +81,7 @@
     //Reading map file and data
 
     queue()
-      .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/t.json")
+      .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/topo.json")
       .defer(d3.csv, "https://vittuwork.github.io/Choropleth/data/Accidents.csv")
       .await(ready);
 
