@@ -81,8 +81,8 @@
     //Reading map file and data
 
     queue()
-      .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/topo.json")
-      .defer(d3.csv, "https://vittuwork.github.io/Choropleth/data/dataset.csv")
+      .defer(d3.json, "https://vittuwork.github.io/Choropleth/data/t.json")
+      .defer(d3.csv, "https://vittuwork.github.io/Choropleth/data/Accidents.csv")
       .await(ready);
 
     //Start of Choropleth drawing
@@ -92,8 +92,8 @@
       var nameById = {};
 
       data.forEach(function(d) {
-        rateById[d.RegionCode] = +d.vodka;
-        nameById[d.RegionCode] = d.map_region_name;
+        rateById[d.RegionCode] = +d.Deaths;
+        nameById[d.RegionCode] = d.RegionName;
       });
 
       //Drawing Choropleth
@@ -106,7 +106,7 @@
         .enter().append("path")
         .attr("d", path)
         .style("fill", function(d) {
-          return color(rateById[d.properties.NAME_1]);
+          return color(rateById[d.properties.region]);
         })
         .style("opacity", 0.8)
 
@@ -115,7 +115,7 @@
           d3.select(this).transition().duration(300).style("opacity", 1);
           div.transition().duration(300)
             .style("opacity", 1)
-          div.text(nameById[d.properties.NAME_1] + " : " + rateById[d.properties.NAME_1])
+          div.text(nameById[d.properties.region] + " : " + rateById[d.properties.region])
             .style("left", (d3.event.pageX) + "px")
             .style("top", (d3.event.pageY - 30) + "px");
         })
