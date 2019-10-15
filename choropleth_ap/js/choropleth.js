@@ -28,8 +28,8 @@
   //Reading map file and data
 
   queue()
-    .defer(d3.json, "file://data/russia_mercator.json")
-    .defer(d3.csv, "file://data/dataset.csv")
+    .defer(d3.json, "https://vittuwork.github.io/choropleth_ap/map/russia_mercator.json")
+    .defer(d3.csv, "https://vittuwork.github.io/choropleth_ap/data/dataset.csv")
     .await(ready);
 
   //Start of Choropleth drawing
@@ -79,7 +79,7 @@
 
     //Adding cities on the map
 
-    d3.tsv("https://vittuwork.github.io/Choropleth/data/cities.tsv", function(error, data) {
+    d3.tsv("https://vittuwork.github.io/choropleth_ap/data/cities.tsv", function(error, data) {
       var city = svg.selectAll("g.city")
         .data(data)
         .enter()
@@ -151,7 +151,7 @@
     .attr("x", 0)
     .attr("y", 20)
     .style("text-anchor", "left")
-    .text("Legend title");
+    .text("% от всего потребления АП");
 
   // draw the rectangle and fill with gradient
   svgLegend.append("rect")
