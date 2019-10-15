@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Accidents on the Road - Choropleth</title>
+  <title>Vodka consumption by regions of the Russian Federation (as a percentage of total AP consumption)</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
   <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
   <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
@@ -13,230 +16,20 @@
   <script type="text/javascript" src="https://d3js.org/d3-queue.v3.min.js"></script>
   <script type="text/javascript" src="https://d3js.org/d3-geo.v1.min.js"></script> -->
 
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/choropleth.js"> </script>
+
 </head>
-<style>
-  path {
-    stroke: white;
-    stroke-width: 1px;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-  }
-
-  .city {
-    font: 10px sans-serif;
-    font-weight: bold;
-  }
-
-  .legend {
-    font-size: 12px;
-  }
-
-  div.tooltip {
-    position: absolute;
-    text-align: center;
-    width: 150px;
-    height: 25px;
-    padding: 2px;
-    font-size: 10px;
-    background: #FFFFE0;
-    border: 1px;
-    border-radius: 8px;
-    pointer-events: none;
-  }
-
-  .legendTitle {
-	font-size: 15px;
-	fill: #4F4F4F;
-	font-weight: 12;
-}
-
-.axis path, .axis line {
-	fill: none;
-	stroke: none; /*black;*/
-	shape-rendering: crispEdges;
-}
-
-.axis text {
-	font-family: Consolas, courier;
- 	fill: #000;
-	font-size: 9pt;
-}
-
-</style>
 
 <body>
-  <div id="my_dataviz"></div>
+
+  <h1>Классификация структуры потребления</h1>
+  <h2>По видам АП(% от общего потребления)</h2>
+
   <div id="legend"></div>
-  <script type="text/javascript">
-    var width = 960,
-      height = 500;
+  <div id="my_dataviz"></div>
+  <script src="js/choropleth.js"> </script>
 
-    var color = d3.scale.linear()
-      .range(["#ffffff", "#2b3990"]) //от какого и до какого цвета
-      .domain([0, 100]) // Максимальное и минимальное значение в диапазоне которых будет цветавая растяжка
-
-    var div = d3.select("#my_dataviz")
-      .append("div")
-      .attr("class", "tooltip")
-      .style("opacity", 0);
-
-    var svg = d3.select("#my_dataviz")
-      .append("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .style("margin", "10px auto");
-
-    var projection = d3.geo.albers()
-      .rotate([-105, 0])
-      .center([-10, 65])
-      .parallels([52, 64])
-      .scale(700)
-      .translate([width / 2, height / 2]);
-
-    var path = d3.geo.path().projection(projection);
-
-    //Reading map file and data
-
-    queue()
-      .defer(d3.json, "https:vittuwork.github.io/choropleth/data/russia_mercator.json")
-      .defer(d3.csv, "https://raw.githubusercontent.com/VitTuWork/vittuwork.github.io/master/Choropleth/data/dataset.csv")
-      .await(ready);
-
-    //Start of Choropleth drawing
-
-    function ready(error, map, data) {
-      var rateById = {};
-      var nameById = {};
-
-      data.forEach(function(d) {
-        rateById[d.map_region_name] = +d.vodka;
-        nameById[d.map_region_name] = d.region_name_rus;
-      });
-
-      //Drawing Choropleth
-      features = topojson.feature(map, map.objects.name);
-     	_Global_features = features;
-
-      svg.append("g")
-        .attr("class", "region")
-        .selectAll("path")
-        // .data(topojson.object(map, map.objects.russia).geometries)
-        // .data(topojson.feature(map, map.objects.russia).features) //<-- in case topojson.v1.js
-        .data(features.features)
-        .enter().append("path")
-        .attr("d", path)
-        .style("fill", function(d) {
-          return color(rateById[d.properties.NAME_1]);
-        })
-        .style("opacity", 0.8)
-
-        //Adding mouseevents
-        .on("mouseover", function(d) {
-          d3.select(this).transition().duration(300).style("opacity", 1);
-          div.transition().duration(300)
-            .style("opacity", 1)
-          div.text(nameById[d.properties.NAME_1] + " : " + rateById[d.properties.NAME_1])
-            .style("left", (d3.event.pageX) + "px")
-            .style("top", (d3.event.pageY - 30) + "px");
-        })
-        .on("mouseout", function() {
-          d3.select(this)
-            .transition().duration(300)
-            .style("opacity", 0.8);
-          div.transition().duration(300)
-            .style("opacity", 0);
-        })
-
-      //Adding cities on the map
-
-      d3.tsv("https://vittuwork.github.io/Choropleth/data/cities.tsv", function(error, data) {
-        var city = svg.selectAll("g.city")
-        .data(data)
-        .enter()
-        .append("g")
-        .attr("class", "city")
-        .attr("transform", function(d) { return "translate(" + projection([d.lon, d.lat]) + ")"; });
-
-        city.append("circle")
-        .attr("r", 3)
-        .style("fill", "lime")
-        .style("opacity", 0.75);
-
-        city.append("text")
-        .attr("x", 5)
-        .text(function(d) { return d.City; });
-      });
-
-    }; // <-- End of Choropleth drawing
-
-    //Adding legend for our Choropleth
-    var colorScale = d3.scale.linear()
-      	.domain([0, 100])
-      	.range(['#ffffff', '#2b3990']);
-
-      // append a defs (for definition) element to your SVG
-    var svgLegend = d3.select('#legend').append('svg')
-        .attr("width",600);
-    var defs = svgLegend.append('defs');
-
-    	// append a linearGradient element to the defs and give it a unique id
-    var linearGradient = defs.append('linearGradient')
-    		.attr('id', 'linear-gradient');
-
-    // horizontal gradient
-    linearGradient
-      .attr("x1", "0%")
-      .attr("y1", "0%")
-      .attr("x2", "100%")
-      .attr("y2", "0%");
-
-    // append multiple color stops by using D3's data/enter step
-    linearGradient.selectAll("stop")
-      .data([
-        {offset: "0%", color: "#ffffff"},
-        {offset: "100%", color: "#2b3990"}
-      ])
-      .enter().append("stop")
-      .attr("offset", function(d) {
-        return d.offset;
-      })
-      .attr("stop-color", function(d) {
-        return d.color;
-      });
-
-    // append title
-    svgLegend.append("text")
-      .attr("class", "legendTitle")
-      .attr("x", 0)
-      .attr("y", 20)
-      .style("text-anchor", "left")
-      .text("Legend title");
-
-    // draw the rectangle and fill with gradient
-    svgLegend.append("rect")
-      .attr("x", 10)
-      .attr("y", 30)
-      .attr("width", 300)
-      .attr("height", 15)
-      .style("fill", "url(#linear-gradient)");
-
-    //create tick marks
-    var xLeg = d3.scale.linear()
-      .domain([0, 100])
-      .range([10, 400]);
-
-    var axisLeg = d3.svg.axis(xLeg)
-      .tickValues(colorScale.domain())
-
-    svgLegend
-      .attr("class", "axis")
-      .append("g")
-      .attr("transform", "translate(0, 40)")
-      .call(axisLeg);
-
-  </script>
 </body>
 
 </html>
