@@ -45,30 +45,45 @@
     border-radius: 8px;
     pointer-events: none;
   }
+
+  .legendTitle {
+	font-size: 15px;
+	fill: #4F4F4F;
+	font-weight: 12;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: none; /*black;*/
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: Consolas, courier;
+ 	fill: #000;
+	font-size: 9pt;
+}
+
 </style>
 
 <body>
+  <div id="my_dataviz"></div>
+  <div id="legend"></div>
   <script type="text/javascript">
     var width = 960,
       height = 500;
 
-    // Setting color domains(intervals of values) for our map
-
-    var color_domain = [20, 40, 60, 80, 100]
-    var ext_color_domain = [0, 20, 40, 60, 80, 100]
-    var legend_labels = ["< 20", "20+", "40+", "60+", "80+", "> 100"]
-    // var color = d3.scale.threshold()
-    //   .domain(color_domain)
-    //   .range(["#adfcad", "#ffcb40", "#ffba00", "#ff7d73", "#ff4e40", "#ff1300"]);
     var color = d3.scale.linear()
       .range(["#ffffff", "#2b3990"]) //от какого и до какого цвета
       .domain([0, 100]) // Максимальное и минимальное значение в диапазоне которых будет цветавая растяжка
 
-    var div = d3.select("body").append("div")
+    var div = d3.select("#my_dataviz")
+      .append("div")
       .attr("class", "tooltip")
       .style("opacity", 0);
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select("#my_dataviz")
+      .append("svg")
       .attr("width", width)
       .attr("height", height)
       .style("margin", "10px auto");
@@ -157,35 +172,70 @@
     }; // <-- End of Choropleth drawing
 
     //Adding legend for our Choropleth
+    var colorScale = d3.scale.linear()
+      	.domain([0, 100])
+      	.range(['#ffffff', '#2b3990']);
 
-    var legend = svg.selectAll("g.legend")
-      .data(ext_color_domain)
-      .enter().append("g")
-      .attr("class", "legend");
+      // append a defs (for definition) element to your SVG
+    var svgLegend = d3.select('#legend').append('svg')
+        .attr("width",600);
+    var defs = svgLegend.append('defs');
 
-    var ls_w = 20,
-      ls_h = 20;
+    	// append a linearGradient element to the defs and give it a unique id
+    var linearGradient = defs.append('linearGradient')
+    		.attr('id', 'linear-gradient');
 
-    legend.append("rect")
-      .attr("x", 20)
-      .attr("y", function(d, i) {
-        return height - (i * ls_h) - 2 * ls_h;
+    // horizontal gradient
+    linearGradient
+      .attr("x1", "0%")
+      .attr("y1", "0%")
+      .attr("x2", "100%")
+      .attr("y2", "0%");
+
+    // append multiple color stops by using D3's data/enter step
+    linearGradient.selectAll("stop")
+      .data([
+        {offset: "0%", color: "#ffffff"},
+        {offset: "100%", color: "#2b3990"}
+      ])
+      .enter().append("stop")
+      .attr("offset", function(d) {
+        return d.offset;
       })
-      .attr("width", ls_w)
-      .attr("height", ls_h)
-      .style("fill", function(d, i) {
-        return color(d);
-      })
-      .style("opacity", 0.8);
-
-    legend.append("text")
-      .attr("x", 50)
-      .attr("y", function(d, i) {
-        return height - (i * ls_h) - ls_h - 4;
-      })
-      .text(function(d, i) {
-        return legend_labels[i];
+      .attr("stop-color", function(d) {
+        return d.color;
       });
+
+    // append title
+    svgLegend.append("text")
+      .attr("class", "legendTitle")
+      .attr("x", 0)
+      .attr("y", 20)
+      .style("text-anchor", "left")
+      .text("Legend title");
+
+    // draw the rectangle and fill with gradient
+    svgLegend.append("rect")
+      .attr("x", 10)
+      .attr("y", 30)
+      .attr("width", 300)
+      .attr("height", 15)
+      .style("fill", "url(#linear-gradient)");
+
+    //create tick marks
+    var xLeg = d3.scale.linear()
+      .domain([0, 100])
+      .range([10, 400]);
+
+    var axisLeg = d3.svg.axis(xLeg)
+      .tickValues(colorScale.domain())
+
+    svgLegend
+      .attr("class", "axis")
+      .append("g")
+      .attr("transform", "translate(0, 40)")
+      .call(axisLeg);
+
   </script>
 </body>
 
