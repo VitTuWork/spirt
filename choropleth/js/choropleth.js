@@ -29,7 +29,7 @@
 
   queue()
     .defer(d3.json, "https:vittuwork.github.io/choropleth/data/russia_mercator.json")
-    .defer(d3.csv, "https://raw.githubusercontent.com/VitTuWork/vittuwork.github.io/master/Choropleth/data/dataset.csv")
+    .defer(d3.csv, "https:vittuwork.github.io/Choropleth/data/dataset.csv")
     .await(ready);
 
   //Start of Choropleth drawing
