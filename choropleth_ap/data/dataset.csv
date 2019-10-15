@@ -53,7 +53,7 @@ region_name,region_name_rus,map_region_name,vodka,conyac,whiskey,vine,option_reg
 ПЕРМСКИЙ КРАЙ,Пермский край,Perm',39.69,5.48,1.51,5.54,Molotov|Permskaya Oblast,Kray,Territory
 ПРИМОРСКИЙ КРАЙ,Приморский край,Primor'ye,38.22,5.42,1.15,4.39,Küsten-Gebiet|Maritime Territory|Primorsk|Primorskiy Kray,Kray,Territory
 ПСКОВСКАЯ ОБЛ,Псковская область,Pskov,29.57,4.72,0.94,4,Pskovskaya Oblast,Oblast,Region
-Республика Крым,Ямало-Ненецкий автономный округ,Crimea,29.85,7.13,0.98,9.32,Crimée|Criméia|Krim|Krymskaya Respublika|Respublika Krym,Autonomous Republic,Autonomous Republic
+Республика Крым,Республика Крым,Crimea,29.85,7.13,0.98,9.32,Crimée|Criméia|Krim|Krymskaya Respublika|Respublika Krym,Autonomous Republic,Autonomous Republic
 РОСТОВСКАЯ ОБЛ,Ростовская область,Rostov,27.46,6.47,2.14,3.8,Province of the Don Cossacks|Provinz des Donischen Heeres|Voyska Donskovo|Rostovskaya Oblast,Oblast,Region
 РЯЗАНСКАЯ ОБЛ,Рязанская область,Ryazan',31.25,4.52,1.86,5.28,Ryazanskaya Oblast|Ryazanskaya Oblast,Oblast,Region
 САМАРСКАЯ ОБЛ,Самарская область,Samara,31.09,5.4,1.95,6.1,Kuybyshev|Kuybyshevskaya|Samarskaya Oblast,Oblast,Region
@@ -82,5 +82,5 @@ region_name,region_name_rus,map_region_name,vodka,conyac,whiskey,vine,option_reg
 ЧЕЧЕНСКАЯ РЕСП,Чеченская республика,Chechnya,65.46,6.28,3.24,1.99,Cecenia|Chechenia|Chechênia|Tchetchnia|Chechen-Ingush A.S.S.R.|Checheno-Ingushetia|Checheno-Ingushetia,Respublika,Republic
 ЧУВАШСКАЯ - ЧУВАШИЯ РЕСП,Чувашская Республика,Chuvash,45.76,3.34,1.11,2.73,Chuvashskaya A.S.S.R.|Chuvashskaya Respublika|Chuvashiya|Chuvash Republic,Respublika,Republic
 ЧУКОТСКИЙ АО,Ханты-Мансийский автономный округ-Югра,Chukot,54.66,7.66,0.99,1.39,Chukotka|Chukotskiy Aok,Avtonomnyy Okrug,Autonomous Province
-ЯМАЛО-НЕНЕЦКИЙ АО,Чукотский автономный округ,Yamal-Nenets,41.6,8.02,2.37,4.57,Yamalo-Nenetskiy A. Okrug,Avtonomnyy Okrug,Autonomous Province
+ЯМАЛО-НЕНЕЦКИЙ АО,Ямало-Ненецкий автономный округ,Yamal-Nenets,41.6,8.02,2.37,4.57,Yamalo-Nenetskiy A. Okrug,Avtonomnyy Okrug,Autonomous Province
 ЯРОСЛАВСКАЯ ОБЛ,Ярославская область,Yaroslavl',36.24,5.34,1.4,5.26,Yaroslavskaya,Oblast,Region
