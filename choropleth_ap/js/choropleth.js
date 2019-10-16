@@ -1,16 +1,16 @@
-  var width = 1440,
+  var width = 1440, // размер svg элемента
     height = 750;
 
   var color = d3.scale.linear()
     .range(["#ffffff", "#001990"]) //от какого и до какого цвета
     .domain([0, 100]) // Максимальное и минимальное значение в диапазоне которых будет цветавая растяжка
 
-  var div = d3.select("#my_dataviz")
+  var div = d3.select("#my_dataviz") // добавляем div для подсказок (tooltip)
     .append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-  var svg = d3.select("#my_dataviz")
+  var svg = d3.select("#my_dataviz") // добавляем svg для картограммы
     .append("svg")
     .attr("width", width)
     .attr("height", height)
@@ -20,7 +20,7 @@
     .rotate([-105, 0])
     .center([-10, 65])
     .parallels([52, 64])
-    .scale(1075)
+    .scale(1075) // масштаб картограммы внутри svg элемента
     .translate([width / 2, height / 2]);
 
   var path = d3.geo.path().projection(projection);
@@ -28,11 +28,11 @@
   //Reading map file and data
 
   queue()
-    .defer(d3.json, "https://vittuwork.github.io/choropleth_ap/map/russia.json")
-    .defer(d3.csv, "https://vittuwork.github.io/choropleth_ap/data/dataset.csv")
+    .defer(d3.json, "https://vittuwork.github.io/choropleth_ap/map/russia.json") // подключение topojson с картой
+    .defer(d3.csv, "https://vittuwork.github.io/choropleth_ap/data/dataset.csv") // подключение датасета
     .await(ready);
 
-  //Start of Choropleth drawing
+  //Начинаем рисовать картограмму
 
   function ready(error, map, data) {
     var rateById = {};
@@ -60,12 +60,12 @@
       })
       .style("opacity", 0.8)
 
-      //Adding mouseevents
+      // добавление событий при наведении мыши на объект
       .on("mouseover", function(d) {
         d3.select(this).transition().duration(300).style("opacity", 1);
         div.transition().duration(300)
           .style("opacity", 1)
-        div.html("<span style='font-size:18px;font-weight:700'>" + rateById[d.properties.NAME_1] + "%" + "</span>" + "<br/>" + nameById[d.properties.NAME_1])
+        div.html("<span style='font-size:18px;font-weight:700'>" + rateById[d.properties.NAME_1] + "%" + "</span>" + "<br/>" + nameById[d.properties.NAME_1]) // вывод значений из датасета в подсказку
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 30) + "px");
       })
@@ -77,7 +77,7 @@
           .style("opacity", 0);
       })
 
-    //Adding cities on the map
+    // добавление, 10 самых больших городов, на карту
 
     d3.tsv("https://vittuwork.github.io/choropleth_ap/data/cities.tsv", function(error, data) {
       var city = svg.selectAll("g.city")
@@ -89,24 +89,24 @@
           return "translate(" + projection([d.lon, d.lat]) + ")";
         });
 
-      city.append("circle")
+      city.append("circle") // добавление точек
         .attr("r", 2)
         .style("fill", "red")
         .style("opacity", 0.75);
 
-      city.append("text")
+      city.append("text") // // добавление названий городов
         .attr("x", 5)
         .text(function(d) {
           return d.City;
         });
     });
 
-  }; // <-- End of Choropleth drawing
+  }; // <-- Закончили рисовать картограмму
 
-  //Adding legend for our Choropleth
+  // Добавление легенды
   var colorScale = d3.scale.linear()
-    .domain([0, 100])
-    .range(['#ffffff', '#2b3990']);
+    .domain([0, 100]) // перечень значений из датасета(мин.–макс.), по которым надо добавлять цвет
+    .range(['#ffffff', '#2b3990']); //Цвет, от какого и до какого нужно сделать растяжку
 
   // append a defs (for definition) element to your SVG
   var svgLegend = d3.select('#legend').append('svg')
