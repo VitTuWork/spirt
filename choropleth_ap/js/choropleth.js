@@ -28,7 +28,7 @@
   //Reading map file and data
 
   queue()
-    .defer(d3.json, "https://vittuwork.github.io/choropleth_ap/map/russia_mercator.json")
+    .defer(d3.json, "https://vittuwork.github.io/choropleth_ap/map/russia.json")
     .defer(d3.csv, "https://vittuwork.github.io/choropleth_ap/data/dataset.csv")
     .await(ready);
 
