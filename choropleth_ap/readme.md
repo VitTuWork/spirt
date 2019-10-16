@@ -9,3 +9,6 @@
 [Map of Russian Federation on d3 with Crimea and Sevastopol with representation data of changes population](https://github.com/logvik/d3_russian_map)
 
 Большое спасибо авторам за публикацию своих наработок!
+
+
+![Preview](http://vittuwork.github.io/choropleth_ap/preview.png)
