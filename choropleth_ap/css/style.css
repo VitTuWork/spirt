@@ -43,11 +43,12 @@ body {
 
 div.tooltip {
   position: absolute;
-  text-align: center;
+  text-align: left;
   /* width: 150px;
   height: 25px; */
   padding: 4px 10px;
-  font-size: 10px;
+  font-size: 14px;
+  font-weight: 400;
   background: #ffffff;
   border: 2px;
   border-radius: 0px;

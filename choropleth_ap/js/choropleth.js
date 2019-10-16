@@ -65,7 +65,9 @@
         d3.select(this).transition().duration(300).style("opacity", 1);
         div.transition().duration(300)
           .style("opacity", 1)
-        div.text(nameById[d.properties.NAME_1] + " : " + rateById[d.properties.NAME_1])
+        // div.text(nameById[d.properties.NAME_1] + " : " + rateById[d.properties.NAME_1])
+        // div.text(<span style='font-size:20px;font-weight:700'> + rateById[d.properties.NAME_1] + "%" + </span> + " : " + nameById[d.properties.NAME_1])
+        div.html("<span style='font-size:18px;font-weight:700'>" + rateById[d.properties.NAME_1] + "%" + "</span>" + "<br/>" + nameById[d.properties.NAME_1])
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 30) + "px");
       })
