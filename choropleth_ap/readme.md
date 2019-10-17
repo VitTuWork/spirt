@@ -12,6 +12,8 @@
 но так как там нет Крыма, взял другую карту (в формате topojson) здесь:  
 [Map of Russian Federation on d3 with Crimea and Sevastopol with representation data of changes population](https://github.com/logvik/d3_russian_map)
 
+Потарался прокоментировать все моменты внутри файлов.  
+Если появятся вопросы или желание пообщаться, пишите на почту tuvitaliy@gmail.com
 
 
 
