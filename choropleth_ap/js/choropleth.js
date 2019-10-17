@@ -44,7 +44,7 @@
     });
 
     //Drawing Choropleth
-    features = topojson.feature(map, map.objects.name);
+    features = topojson.feature(map, map.objects.name); //  "name" мы берем из russia.json, открыв файл в редакторе в самом начале файла есть "objects":{"name"
     _Global_features = features;
 
     svg.append("g")
