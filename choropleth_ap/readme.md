@@ -15,6 +15,8 @@
 Потарался прокоментировать все моменты внутри файлов.  
 Если появятся вопросы или желание пообщаться, пишите на почту tuvitaliy@gmail.com
 
+[Все файлы на github](https://github.com/VitTuWork/vittuwork.github.io/tree/master/choropleth_ap)
+
 
 
 
