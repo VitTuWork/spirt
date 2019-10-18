@@ -53,7 +53,7 @@ d3.csv("https://vittuwork.github.io/heatmap_4.csv", function(data) {
   //  Всплывающие подсказки
   var tooltip = d3.select("#my_dataviz")
     .append("div")
-    .style("position", "absolute") // Описание рядом со стрелкой
+    // .style("position", "absolute") // Описание рядом со стрелкой
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "white")
