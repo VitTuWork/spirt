@@ -1,0 +1,86 @@
+region_name,region_name_rus,map_region_name,option_region_name,type,type_eng,prozhit_min,sredndush_dohod,ploshad_km2,bezrab_%,naselenie
+АДЫГЕЯ РЕСП,Адыгея республика,Adygey,Adygea|Adygeya|Adygheya|Republic of Adygeya|Adygeyskaya A.Obl.|Respublika Adygeya,Respublika,Republic,8375,22415,7792,8.2,453376
+АЛТАЙ РЕСП,Алтай республика,Altay,Altayskiy Kray,Kray,Territory,9435,18179,92903,12.5,218063
+АЛТАЙСКИЙ КРАЙ,Алтайский край,Gorno-Altay,Gorno-Altayskaya A.Obl.|Respublika Altay|Oirot|Republic of Altai,Respublika,Republic,8798,21008,167996,6.3,2350080
+АМУРСКАЯ ОБЛ,Амурская область,Amur,Amurskaya Oblast,Oblast,Region,10740,29704,361908,5.7,798424
+АРХАНГЕЛЬСКАЯ ОБЛ,Архангельская область,Arkhangel'sk,Arcangelo|Archangel|Archangelsk|Arkhangelskaya Oblast,Oblast,Region,8452,30922,413103,6.4,1111031
+АСТРАХАНСКАЯ ОБЛ,Астраханская область,Astrakhan',Astrachan|Astrakhanskaya Oblast,Oblast,Region,8452,24014,49024,7.7,1017514
+БАШКОРТОСТАН РЕСП,Башкортостан республика,Bashkortostan,Bashkir|Bashkiriya|Bashkirskaya A.S.S.R.|Republic of Bashkortostan|Respublika Bashkortostan,Respublika,Republic,8623,27815,142947,4.6,4063293
+БЕЛГОРОДСКАЯ ОБЛ,Белгородская область,Belgorod,Belgorodskaya Oblast,Oblast,Region,8134,27907,27134,3.9,1549876
+БРЯНСКАЯ ОБЛ,Брянская область,Bryansk,Bryanskaya Oblast,Oblast,Region,8843,25083,34857,3.2,1210982
+БУРЯТИЯ РЕСП,Бурятия республика,Buryat,Buryatiya|Buryat-Mongol A.S.S.R.|Republic of Buryatia|Buryatskaya A.S.S.R.|Respublika,Respublika,Republic,9506,25345,351334,9.5,984511
+ВЛАДИМИРСКАЯ ОБЛ,Владимирская область,Vladimir,Vladimirskaya Oblast,Oblast,Region,9344,23080,29084,5,1378337
+ВОЛГОГРАДСКАЯ ОБЛ,Волгоградская область,Volgograd,Stalingrad|Volgogradskaya Oblast,Oblast,Region,8889,22000,112877,5.7,2521276
+ВОЛОГОДСКАЯ ОБЛ,Вологодская область,Vologda,Vologodskaya Oblast,Oblast,Region,10010,25668,144527,5.2,1176689
+ВОРОНЕЖСКАЯ ОБЛ,Воронежская область,Voronezh,Voronezhskaya Oblast,Oblast,Region,8174,30141,52216,4,2333768
+ДАГЕСТАН РЕСП,Дагестан республика,Dagestan,Dagestanskaya A.S.S.R.|Daghestan|Republic of Dagestan|Respublika Dagestan|Dagistan,Respublika,Republic,8708,26809,50270,12.7,3063885
+ЕВРЕЙСКАЯ АОБЛ,Еврейская автономная область,Yevrey,Den jødiske autonome oblasten|Evrey|Jewish A.Obl.|Yahudi|Yevreyskaya A.Obl.|Evreyskaya AOb,Avtonomnaya Oblast,Autonomous Region,12476,24118,36271,6.2,162014
+Забайкальский край,Забайкальский край,Zabaikal,Zabaikalskiy Krai,Oblast,Region,10230,23026,431892,10,1072806
+ИВАНОВСКАЯ ОБЛ,Ивановская область,Ivanovo,Ivanovskaya Oblast,Oblast,Region,9462,22494,21437,3.9,1014646
+ИНГУШЕТИЯ РЕСП,Ингушетия республика,Ingush,Ingouchie|Inguchétia|Inguschetien|Ingushetia|Ingushetiya|Ingush Republic|Ingushskaya Respublika|Respublika Ingushetiya,Respublika,Republic,8704,13337,3628,26.3,488043
+ИРКУТСКАЯ ОБЛ,Иркутская область,Irkutsk,Irkutskaya Oblast,Oblast,Region,9935,22203,774846,8,2404195
+КАБАРДИНО-БАЛКАРСКАЯ РЕСП,Кабардино-Балкарская республика,Kabardin-Balkar,Kabardin A.S.S.R.|Kabardino-Balkarskaya A.S.S.R.|Kabardino-Balkariya|Kabardino-Balkarsk|Kabard|Kabardino-Balkarskaya Republic,Respublika,Republic,8546,18766,12470,10.8,865828
+КАЛИНИНГРАДСКАЯ ОБЛ,Калининградская область,Kaliningrad,Kaliningradskaya Oblast,Oblast,Region,9664,25043,15125,4.7,994599
+КАЛМЫКИЯ РЕСП,Калмыкия республика,Kalmyk,Kalmykiya|Khalmg Tangch|Republic of Kalmykia|Kalmytskaya A.S.S.R.|Respublika Kalmykiya,Respublika,Republic,8546,14234,74731,7.8,275413
+КАЛУЖСКАЯ ОБЛ,Калужская область,Kaluga,Kaluzhskaya Oblast,Oblast,Region,9223,26695,29777,3.7,1012156
+КАМЧАТСКИЙ КРАЙ,Камчатский край,Kamchatka,Kamï¿½atka|Kamchatskaya Oblast,Oblast,Region,18020,39494,464275,4.8,315557
+КАРАЧАЕВО-ЧЕРКЕССКАЯ РЕСП,Карачаево-Черкесская республика,Karachay-Cherkess,Karaçay-Çerkes|Karachay-Cherkessiya|Karachayevo-Cherkesskaya Respublika|Karachayevo-Cherkessiya|Karachayevo-Cherkess Republic|K,Respublika,Republic,8667,17913,14277,13.2,466305
+КАРЕЛИЯ РЕСП,Карелия республика,Karelia,Karelian A.S.S.R.|Karelo-Finnish A.S.S.R.|Karel'skaya A.S.S.R.|Olonets|Olonetskaya G.|Kareliya|Republic of Karelia,Respublika,Republic,11671,25713,180520,8.5,622484
+КЕМЕРОВСКАЯ ОБЛ,Кемеровская область,Kemerovo,Kemerovskaya Oblast,Oblast,Region,8814,21553,95725,6.1,2694877
+КИРОВСКАЯ ОБЛ,Кировская область,Kirov,Vyatka|Vyatskaya G.|Kirovskaya Oblast,Oblast,Region,9210,22422,120374,4.9,1283238
+КОМИ РЕСП,Коми республика,Komi,Komi A.S.S.R.|Republic of Komi|Respublika Komi,Respublika,Republic,11443,33313,416774,7,840873
+КОСТРОМСКАЯ ОБЛ,Костромская область,Kostroma,Kostromskaya Oblast,Oblast,Region,9083,22385,60211,4.1,643324
+КРАСНОДАРСКИЙ КРАЙ,Краснодарский край,Krasnodar,Cossacks of the Black Sea|Kuban|Kubanskaya|Yekaterinodar|Krasnodarskiy Kray,Kray,Territory,9349,31376,75485,4.9,5603420
+КРАСНОЯРСКИЙ КРАЙ,Красноярский край,Krasnoyarsk,Krasnoyarskiy Kray|Yeniseisk|Yeniseyskaya G.,Kray,Territory,10799,26854,2366797,5.2,2876497
+КУРГАНСКАЯ ОБЛ,Курганская область,Kurgan,Kurganskaya Oblast,Oblast,Region,9032,20140,71488,8.1,845537
+КУРСКАЯ ОБЛ,Курская область,Kursk,Kurskaya Oblast,Oblast,Region,8312,25781,29997,4.1,1115237
+ЛЕНИНГРАДСКАЯ ОБЛ,Ленинградская область,Leningrad,Saint Petersburg|Sankt-Peterburgskaya G.|Leningradskaya Oblast,Oblast,Region,8453,26231,83908,4,1813816
+ЛИПЕЦКАЯ ОБЛ,Липецкая область,Lipetsk,Lipetskaya Oblast,Oblast,Region,8261,27630,24047,3.8,1150201
+МАГАДАНСКАЯ ОБЛ,Магаданская область,Magadan,Magadanskaya Oblast,Oblast,Region,17311,48734,462464,4.8,144091
+МАРИЙ ЭЛ РЕСП,Марий Эл республика,Mariy-El,Mari|Mari-El|Republic of Mari El|Mariyskaya A.S.S.R.|Respublika Mariy El,Respublika,Republic,8717,17693,23375,5.6,682333
+МОРДОВИЯ РЕСП,Мордовия республика,Mordovia,Mordov|Mordvian Autonomous Republic|Mordvinia|Republic of Mordovia|Mordovian A.S.S.R.,Respublika,Republic,8149,17456,26128,4.4,805056
+МОСКВА Г,Москва,Moskva,Mosca|Moscou|Moscow|Moskau|Moskova|Moskovskaya,Gorod,City,14749,59567,2561,1.2,12506468
+МОСКОВСКАЯ ОБЛ,Московская область,Moskovsskaya,,Oblast,Region,10795,38396,44329,2.6,7503385
+МУРМАНСКАЯ ОБЛ,Мурманская область,Murmansk,Murmanskaya Oblast,Oblast,Region,13722,35952,144902,8,753557
+НЕНЕЦКИЙ АО,Крым республика,Nenets,Nenetskiy A.Okr.|Nenetskiy Aok,Avtonomnyy Okrug,Autonomous Province,18577,71072,176810,7.9,43997
+НИЖЕГОРОДСКАЯ ОБЛ,Нижегородская область,Nizhegorod,Gor'kiy|Gor'kovskaya|Gorky|Nizhegorodskaya|Nizhniy-Novgorod|Nizhegorodskaya Oblast,Oblast,Region,8822,30850,76624,4.2,3234752
+НОВГОРОДСКАЯ ОБЛ,Новгородская область,Novgorod,Novgorodskaya Oblast,Oblast,Region,9499,25642,54501,4.5,606476
+НОВОСИБИРСКАЯ ОБЛ,Новосибирская область,Novosibirsk,Novosibirskaya Oblast,Oblast,Region,10425,23794,177756,6.2,2788849
+ОМСКАЯ ОБЛ,Омская область,Omsk,Omskaya Oblast,Oblast,Region,8544,25771,141140,6.8,1960081
+ОРЕНБУРГСКАЯ ОБЛ,Оренбургская область,Orel,Orlovskaya|Or'ol|Oryol|Orlovskaya Oblast,Oblast,Region,8348,23205,123702,4.9,1977720
+ОРЛОВСКАЯ ОБЛ,Орловская область,Orenburg,Chkalov|Orenburgskaya|Orenburgskaya Oblast,Oblast,Region,8764,22819,24652,4.7,747247
+ПЕНЗЕНСКАЯ ОБЛ,Пензенская область,Penza,Penzenskaya Oblast,Oblast,Region,8096,21104,43352,4.4,1331655
+ПЕРМСКИЙ КРАЙ,Пермский край,Perm',Molotov|Permskaya Oblast,Kray,Territory,9510,32692,160236,5.4,2623122
+ПРИМОРСКИЙ КРАЙ,Приморский край,Primor'ye,Küsten-Gebiet|Maritime Territory|Primorsk|Primorskiy Kray,Kray,Territory,12490,34081,164673,6.2,1913037
+ПСКОВСКАЯ ОБЛ,Псковская область,Pskov,Pskovskaya Oblast,Oblast,Region,10266,21178,55399,5.3,636546
+Республика Крым,Республика Крым,Crimea,Crimée|Criméia|Krim|Krymskaya Respublika|Respublika Krym,Autonomous Republic,Autonomous Republic,10309,21170,26081,5.7,1913731
+РОСТОВСКАЯ ОБЛ,Ростовская область,Rostov,Province of the Don Cossacks|Provinz des Donischen Heeres|Voyska Donskovo|Rostovskaya Oblast,Oblast,Region,9386,26480,100967,5,4220452
+РЯЗАНСКАЯ ОБЛ,Рязанская область,Ryazan',Ryazanskaya Oblast|Ryazanskaya Oblast,Oblast,Region,8753,24074,39605,3.7,1121474
+САМАРСКАЯ ОБЛ,Самарская область,Samara,Kuybyshev|Kuybyshevskaya|Samarskaya Oblast,Oblast,Region,8786,26917,53565,3.7,3193514
+САНКТ-ПЕТЕРБУРГ Г,Санкт-Петербург,Saint Petersburg City,Sankt-Peterburg gorsovet,Gorsovet,City,9995,39845,1403,1.5,5351935
+САРАТОВСКАЯ ОБЛ,Саратовская область,Saratov,Saratovskaya Oblast,Oblast,Region,8266,20130,101240,4.8,2462950
+САХА /ЯКУТИЯ/ РЕСП,Саха (Якутия) республика,Sakha,Republic of Sakha|Yakutia-Sakha|Yakutsk|Yakut A.S.S.R.|Yakutskaya A.S.S.R.|Respublika Sakha,Respublika,Republic,15140,37857,3083523,7.5,964330
+САХАЛИНСКАЯ ОБЛ,Сахалинская область,Sakhalin,Sakhalinskaya Oblast,Oblast,Region,13672,48853,87101,5.1,490181
+СВЕРДЛОВСКАЯ ОБЛ,Свердловская область,Sverdlovsk,Yekaterinburg|Sverdlovskaya Oblast,Oblast,Region,9602,34696,194307,4.7,4325256
+Севастополь Г,Севастополь,Sevastopol',Sebastopol,Autonomous Republic,Autonomous Republic,10309,21170,864,4.6,436670
+СЕВЕРНАЯ ОСЕТИЯ - АЛАНИЯ РЕСП,Северная Осетия-Алания республика,North Ossetia,Kuzey Osetya|Respublika Severnaya Osetiya|Severnaya Osetiya-Alaniya|North Ossetian A.S.S.R.|Republic of North Osetia-Alania,Respublika,Republic,7695,21889,7987,9.6,701765
+СМОЛЕНСКАЯ ОБЛ,Смоленская область,Smolensk,Smolenskaya Oblast,Oblast,Region,10258,24068,49779,4.7,949348
+СТАВРОПОЛЬСКИЙ КРАЙ,Ставропольский край,Stavropol',Stavropol'skiy Kray|Stavropolskiy Kray,Kray,Territory,8231,22675,66160,4.8,2800674
+ТАМБОВСКАЯ ОБЛ,Тамбовская область,Tambov,Tambovskaya Oblast,Oblast,Region,8168,25078,34462,3.9,1033552
+ТАТАРСТАН РЕСП,Татарстан республика,Tatarstan,Kazan|Kazanskaya G.|Tatar A.S.S.R.|Tatarskaya A.S.S.R.|Republic of Tatarstan|Respublika Tatars,Respublika,Republic,7695,31391,67847,3.4,3894284
+ТВЕРСКАЯ ОБЛ,Тверская область,Tver',Kalinin|Kalininskaya|Tverskaya Oblast,Oblast,Region,9741,23579,84201,4.1,1283873
+ТОМСКАЯ ОБЛ,Томская область,Tomsk,Tomskaya Oblast,Oblast,Region,10578,23787,314391,5.2,1078280
+ТУЛЬСКАЯ ОБЛ,Тульская область,Tula,Tul'skaya|Tulskaya Oblast,Oblast,Region,8949,26426,25679,4.1,1491855
+ТЫВА РЕСП,Тыва республика,Tuva,Respublika Tyva|Republic of Tuva|Tyva|Tuvinskaya A.S.S.R.|Republic of Tyva,Respublika,Republic,9804,15094,168604,12.9,321722
+ТЮМЕНСКАЯ ОБЛ,Тюменская область,Tyumen',Tobol'sk|Tobol'skaya G.|Tyumenskaya Oblast,Oblast,Region,12751,41117,160122,3.1,1498779
+УДМУРТСКАЯ РЕСП,Удмуртская Республика,Udmurt,Udmurtiya|Udmurt Republic|Udmurtskaya A.S.S.R.|Udmurtskaya Respublika,Respublika,Republic,8726,24931,42061,4.7,1513044
+УЛЬЯНОВСКАЯ ОБЛ,Ульяновская область,Ul'yanovsk,Simbirsk|Simbirskaya G.|Ul'yanovskaya Oblast,Oblast,Region,8855,22770,37181,3.5,1246618
+ХАБАРОВСКИЙ КРАЙ,Хабаровский край,Khabarovsk,Khabarovskiy Kray,Kray,Territory,13417,37677,787633,3.8,1328302
+ХАКАСИЯ РЕСП,Хакасия республика,Khakass,Khakassiya|Republic of Khakasia|Khakasskaya A.Obl.|Respublika Khakasiya|Republic of Khakasia,Respublika,Republic,9076,20649,61569,6.5,537513
+ХАНТЫ-МАНСИЙСКИЙ - ЮГРА АО,Ненецкий автономный округ,Khanty-Mansiy,Khanty-Mansiysk|Khanty-Mansiyskiy A.Okr.|Khanty-Mansiyskiy A.Okr.-Yugra|Khanty-Mansiyskiy Aok,Avtonomnyy Okrug,Autonomous Province,14316,44520,534801,2.5,1655074
+ЧЕЛЯБИНСКАЯ ОБЛ,Челябинская область,Chelyabinsk,Chelyabinskaya Oblast,Oblast,Region,9397,24464,88529,5.5,3493036
+ЧЕЧЕНСКАЯ РЕСП,Чеченская республика,Chechnya,Cecenia|Chechenia|Chechênia|Tchetchnia|Chechen-Ingush A.S.S.R.|Checheno-Ingushetia|Checheno-Ingushetia,Respublika,Republic,8162,22457,15647,13.2,1436981
+ЧУВАШСКАЯ - ЧУВАШИЯ РЕСП,Чувашская Республика,Chuvash,Chuvashskaya A.S.S.R.|Chuvashskaya Respublika|Chuvashiya|Chuvash Republic,Respublika,Republic,8301,18508,18343,4.9,1231117
+ЧУКОТСКИЙ АО,Ханты-Мансийский автономный округ-Югра,Chukot,Chukotka|Chukotskiy Aok,Avtonomnyy Okrug,Autonomous Province,16537,57333,721481,2.4,49348
+ЯМАЛО-НЕНЕЦКИЙ АО,Ямало-Ненецкий автономный округ,Yamal-Nenets,Yamalo-Nenetskiy A. Okrug,Avtonomnyy Okrug,Autonomous Province,15851,63036,769250,2.2,538547
+ЯРОСЛАВСКАЯ ОБЛ,Ярославская область,Yaroslavl',Yaroslavskaya,Oblast,Region,8680,27006,36177,6,1265684
