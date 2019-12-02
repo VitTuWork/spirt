@@ -67,6 +67,7 @@ d3.csv("data/people.csv", function(error, people) {
         .domain(d3.extent(people, function(p) { return +p[d]; }))
         .range([height, 0]));
   }));
+  //
 
   // Add grey background lines for context.
   background = svg.append("g")
