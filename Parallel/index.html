@@ -73,7 +73,7 @@ d3.csv("data/people.csv", function(error, people) {
   background = svg.append("g")
       .attr("class", "background")
     .selectAll("path")
-      .data(cars)
+      .data(people)
     .enter().append("path")
       .attr("d", path);
 
@@ -81,7 +81,7 @@ d3.csv("data/people.csv", function(error, people) {
   foreground = svg.append("g")
       .attr("class", "foreground")
     .selectAll("path")
-      .data(cars)
+      .data(people)
     .enter().append("path")
       .attr("d", path);
 
