@@ -59,10 +59,10 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("cars.csv", function(error, cars) {
+d3.csv("data/people.csv", function(error, people) {
 
   // Extract the list of dimensions and create a scale for each.
-  x.domain(dimensions = d3.keys(cars[0]).filter(function(d) {
+  x.domain(dimensions = d3.keys(people[0]).filter(function(d) {
     return d != "name" && (y[d] = d3.scale.linear()
         .domain(d3.extent(cars, function(p) { return +p[d]; }))
         .range([height, 0]));
