@@ -62,6 +62,7 @@ var svg = d3.select("body").append("svg")
 d3.csv("https://vittuwork.github.io/Parallel/data/people.csv", function(error, people) {
 
   // Extract the list of dimensions and create a scale for each.
+  
   x.domain(dimensions = d3.keys(people[0]).filter(function(d) {
     return d != "name" && (y[d] = d3.scale.linear()
         .domain(d3.extent(people, function(p) { return +p[d]; }))
