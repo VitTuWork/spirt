@@ -37,11 +37,11 @@ svg {
 
 </style>
 <body>
-<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
 <script>
 
 var margin = {top: 30, right: 10, bottom: 10, left: 10},
-    width = 960 - margin.left - margin.right,
+    width = 1500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 var x = d3.scale.ordinal().rangePoints([0, width], 1),
@@ -59,7 +59,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data/people.csv", function(error, people) {
+d3.csv("https://vittuwork.github.io/Parallel/data/people.csv", function(error, people) {
 
   // Extract the list of dimensions and create a scale for each.
   x.domain(dimensions = d3.keys(people[0]).filter(function(d) {
@@ -67,7 +67,7 @@ d3.csv("data/people.csv", function(error, people) {
         .domain(d3.extent(people, function(p) { return +p[d]; }))
         .range([height, 0]));
   }));
-  //
+
 
   // Add grey background lines for context.
   background = svg.append("g")
